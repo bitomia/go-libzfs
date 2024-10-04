@@ -249,7 +249,7 @@ property_list_t *read_zpool_properties(zpool_list_ptr pool) {
 	root = read_append_zpool_property(pool, root, ZPOOL_PROP_FREEING);
 
 	list = new_property_list();
-	list->property = ZPOOL_NUM_PROPS;
+	list->property = ZPOOL_NUM_PROPS - 1;
 	sprintf(list->value, "%d", ZPOOL_NUM_PROPS);
 	list->pnext = root;
 	zprop_source_tostr(list->source, ZPROP_SRC_NONE);

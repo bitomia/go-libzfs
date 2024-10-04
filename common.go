@@ -4,13 +4,11 @@
 //
 // TODO: Adding to the pool. (Add the given vdevs to the pool)
 // TODO: Scan for pools.
-//
-//
 package zfs
 
 /*
 #cgo CFLAGS: -I /usr/include/libzfs -I /usr/include/libspl -DHAVE_IOCTL_IN_SYS_IOCTL_H -D_GNU_SOURCE
-#cgo LDFLAGS: -lzfs -lzpool -lnvpair
+#cgo LDFLAGS: -lzfs -lzpool -lnvpair -lzfs_core
 
 #include <stdlib.h>
 #include <libzfs.h>
