@@ -619,7 +619,8 @@ func (d *Dataset) Hold(flag string) (err error) {
 
 // Release - Removes a single reference, named with the tag argument, from the specified snapshot.
 // The tag must already exist for each snapshot.  If a hold exists on a snapshot, attempts to destroy
-//  that snapshot by using the zfs destroy command return EBUSY.
+//
+//	that snapshot by using the zfs destroy command return EBUSY.
 func (d *Dataset) Release(flag string) (err error) {
 	var path string
 	var pd Dataset
