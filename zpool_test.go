@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	zfs "github.com/bitomica/go-libzfs"
+	zfs "github.com/bitomia/go-libzfs"
 )
 
 /* ------------------------------------------------------------------------- */

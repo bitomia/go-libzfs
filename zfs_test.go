@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	zfs "github.com/bitomica/go-libzfs"
+	zfs "github.com/bitomia/go-libzfs"
 )
 
 /* ------------------------------------------------------------------------- */
