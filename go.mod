@@ -1,3 +1,3 @@
-module github.com/bitomica/go-libzfs
+module github.com/bitomia/go-libzfs
 
 go 1.13
